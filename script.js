@@ -499,7 +499,7 @@ dragDropModeBtn.addEventListener('click', () => {
 })
 
 
-// Функции разблокировки режима для режима просмотра
+// Функции блокировки и разблокировки режима для режима просмотра
 function disableDragDromMode() {
     isDragDropMode = false;
     removeHandlersDragDrop();
