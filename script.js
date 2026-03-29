@@ -179,6 +179,10 @@ function addTask() {
     showError('Название задачи должно содержать минимум 3 символа.');
     taskInput.focus();
     return;
+  } else if (text.length > 80) {
+    showError('Текст задачи не может быть более 80 символов!')
+    taskInput.focus();
+    return;
   }
 
   clearError();
