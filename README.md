@@ -1,4 +1,4 @@
-# js-practice-06
+# js-practice-07
 
 ## Используемые технологии
 * HTML
